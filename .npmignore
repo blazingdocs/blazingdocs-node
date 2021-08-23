@@ -1,0 +1,17 @@
+# project files
+src
+test
+
+# editors
+.idea
+
+# jest files
+jest.*
+
+# linter files
+tslint.json
+tsconfig.json
+
+# npm package lock
+package-lock.json
+yarn.lock

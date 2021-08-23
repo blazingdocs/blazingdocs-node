@@ -1,0 +1,45 @@
+{
+  "name": "blazingdocs",
+  "version": "1.0.0",
+  "description": "BlazingDocs Node.js client. High-performance document generation API. Generate documents and reports from СSV, JSON, XML with 99,9% uptime and 24/7 monitoring",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "tslint": "tslint -p tslint -p tsconfig.json"
+  },
+  "author": "Mentalstack <hello@blazingdocs.com> (https://blazingdocs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blazingdocs/blazingdocs-node/issues"
+  },
+  "homepage": "https://github.com/blazingdocs/blazingdocs-node",
+  "keywords": [
+    "doc",
+    "docx",
+    "pdf",
+    "odt",
+    "report",
+    "document",
+    "template",
+    "office",
+    "openoffice",
+    "merge",
+    "xml",
+    "json",
+    "csv"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.6.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  }
+}
