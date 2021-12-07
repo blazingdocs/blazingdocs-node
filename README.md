@@ -45,7 +45,9 @@ const client = BlazingClient('API-KEY')
 const data = readFileSync(__dirname + '/PO-Template-Array.json', 'utf8');
 
 const parameters: MergeParameters = new MergeParameters();
-parameters.sequence = true;
+parameters.dataSourceType = DataSourceType.Json; // data in json format
+parameters.sequence = true; // data is array
+parameters.strict = true; // keep json types
 
 const readStream = createReadStream(__dirname + '/PO-Template-Array.docx');
 const template: FormFile = new FormFile("PO-Template-Array.docx", readStream);
